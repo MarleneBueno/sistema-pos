@@ -121,6 +121,16 @@ $employees = $db->query("
             </div>
         </header>
 
+        <nav class="admin-nav">
+            <a href="dashboard.php" class="nav-item">Dashboard</a>
+            <a href="employees.php" class="nav-item active">Empleados</a>
+            <a href="products.php" class="nav-item">Productos</a>
+            <a href="sales.php" class="nav-item">Ventas</a>
+            <a href="reports.php" class="nav-item">Reportes</a>
+            <a href="clients.php" class="nav-item">Clientes</a>
+        </nav>
+
+
         <main class="admin-content">
             <?php if ($message): ?>
                 <div class="alert alert-<?= $messageType ?>">
