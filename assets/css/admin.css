@@ -788,6 +788,11 @@ body {
     color: white;
 }
 
+.badge-warning {
+    background-color: #eec338;
+    color: white;
+}
+
 .badge-danger {
     background-color: #dc3545;
     color: white;
